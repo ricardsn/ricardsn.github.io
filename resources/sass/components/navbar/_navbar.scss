@@ -1,0 +1,57 @@
+.navbar {
+
+    .navbar-brand {
+
+        img {
+            height: 50px;
+            width: 80px;
+        }
+    }
+
+
+    .navbar-nav {
+
+            .nav-item {
+
+                &:first-child {
+                    margin-top: 10px;
+                    border-top: 2px solid lightslategray;
+                }
+
+                .nav-link {
+                    text-align: center;
+
+                    &:hover {
+                        font-weight: bold;
+                    }
+                }
+
+                .dropdown-menu {
+                    text-align: center;
+                    font-family: "Comic Sans MS", cursive sans-serif;
+                    width: 80%;
+                    margin: auto;
+
+                    &.show {
+                        transition: ease 2s;
+                    }
+                    .dropdown-item {
+                        border: 1px solid lightslategray;
+                        border-radius: 20px;
+                        width: 80%;
+                        margin: 10px auto 10px;
+
+                        &:hover {
+                            background-color: rgba(62, 57, 74, 0.24);
+                        }
+
+                        &:hover {
+                            background-color: lightgray;
+                        }
+
+                    }
+                }
+            }
+    }
+
+}
